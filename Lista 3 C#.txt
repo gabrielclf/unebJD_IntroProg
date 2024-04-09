@@ -1,0 +1,210 @@
+//Heroi 
+int str = 500;
+        int mp = 500;
+       Console.WriteLine("Escolha sua Classe");
+       string hero_class = Console.ReadLine();
+       
+       switch (hero_class.ToLower()){
+           
+           case "guerreiro":
+            str +=(int)(str*0.3);
+            mp -= (int)(mp*0.2);
+           break;
+           
+           case "mago":
+            str-=(int)(str*0.4);
+            mp+=(int)(mp*0.5);
+           break;
+           
+           case "druida":
+            str-=(int)(str*0.2);
+            mp+=(int)(mp*0.3);
+           break;
+           
+           default:
+            hero_class = "Classe invalida";
+           break;
+           
+       }
+       
+       Console.WriteLine("Ficha do heroi: Classe: "+hero_class+" \n Forca: "+str+" \n Mana: "+mp);
+
+
+ //Q2 e Q4
+     
+     int n1,n2;
+     n1 = Convert.ToInt32(Console.ReadLine());
+     n2 = Convert.ToInt32(Console.ReadLine());
+     n3 = Convert.ToInt32(Console.ReadLine());
+     if (n1 > n2) && (n1>n3){
+     	Console.WriteLine(n2+" < "+n1);
+     } else if (n2>n1) && (n2>n3) {
+     	Console.WriteLine(n1+" < "+n2);
+        
+     } else if (n3>n1) && (n3>n2) {
+     	
+     }
+
+
+//Q3
+
+int numero = Convert.ToInt32(Console.ReadLine());
+
+if (numero % 2 == 0) {
+	Console.WriteLine("Numero é par");
+} else {
+	Console.WriteLine("Numero é impar);
+}
+
+
+//Q5
+double valor_real,valor_convertido;
+
+
+valor_real = Convert.ToDouble(Console.ReadLine());
+int tipo_moeda = Convert.ToInt32(Console.ReadLine());
+
+switch (valor_real){
+	case 1: 
+		valor_convertido = valor_real / 4;
+		Console.WriteLine("Valor em Dólar: "+valor_convertido);
+	break;
+
+	case 2:
+		valor_convertido = valor_real / 6.15;
+		Console.WriteLine("Valor em Libra: "+valor_convertido);
+	break;
+
+	case 3:
+		valor_convertido = valor_real / 4.72;
+		Console.WriteLine("Valor em Euro: "+valor_convertido);
+	break;
+
+	default:
+		Console.WriteLine("Moeda Inválida");
+	break;
+}
+
+//Q6 
+            /*
+            int idade = Convert.ToInt32(Console.ReadLine());
+            
+            if ((idade>=8)&&(idade<=10)){
+                Console.WriteLine("Categoria infantil B");
+            } else if ((idade>=11)&&(idade<=13)) {
+                Console.WriteLine("Categoria juvenil A");
+            } else if ((idade>=14)&&(idade<=17)){
+                Console.WriteLine("Categoria juvenil B");
+            } else if (idade>=18){
+                Console.WriteLine("Categoria senior");
+            } else {
+                Console.WriteLine("Sem Categoria apropriada");
+            }
+            */
+            //Q7
+            /*
+            int op,n1,n2,n3;
+
+            op = Convert.ToInt32(Console.ReadLine());
+            n1 = Convert.ToInt32(Console.ReadLine());
+            n2 = Convert.ToInt32(Console.ReadLine());
+            n3 = Convert.ToInt32(Console.ReadLine());
+
+            switch(op){
+                case 1:
+                    Console.WriteLine("Valor de num1 = "+n1);
+                break;
+
+                case 2:
+                    Console.WriteLine("Valor de num2 = "+n2);
+                break;
+
+                case 3:
+                    Console.WriteLine("Valor de num3 = "+n3);
+                break;
+
+                default:
+                    Console.WriteLine("Valor de operação inválido");
+                break;
+
+            }
+            */
+            //Q8
+
+            /*
+            Console.WriteLine("Informe a quantidade de notas de R$1");
+            int notas1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Informe a quantidade de notas de R$5");
+            int notas5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Informe a quantidade de notas de R$10");
+            int notas10 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Informe a quantidade de notas de R$50");
+            int notas50 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Informe a quantidade de notas de R$100");
+            int notas100 = Convert.ToInt32(Console.ReadLine());
+
+            int dinheiro = notas1 + (5*notas5) +(10*notas10) + (50*notas50) + (100*notas100);
+            Console.WriteLine("A quantidade total de dinheiro é: "+dinheiro);
+            */
+
+            //Q9
+            /*
+            int dinheiro = Convert.ToInt32(Console.ReadLine());
+            int notas1 = 0, notas5 = 0, notas10 = 0, notas50 = 0, notas100 = 0, resto = 0;
+
+            if (dinheiro % 100 == 0){
+                notas100 = dinheiro/100;
+            } else {
+                notas100 = dinheiro/100;
+                resto = dinheiro%100;
+                if (resto % 50 == 0){
+                    notas50 = resto/50;
+                } else {
+                    notas50 = resto/50;
+                    resto %= 50;
+                    if (resto % 10 == 0){
+                        notas10 = resto/10;
+                    } else {
+                        notas10 = resto/10;
+                        resto %= 10;
+                        if (resto % 5 == 0){
+                            notas5 = resto/5;
+                        } else {
+                            notas5 = resto/5;
+                            resto %= 5;
+                            if (resto % 1 == 0){
+                                notas1 = resto/1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            Console.WriteLine("A quantidade de notas de 100 é: "+notas100);
+            Console.WriteLine("A quantidade de notas de 50 é: "+notas50);
+            Console.WriteLine("A quantidade de notas de 10 é: "+notas10);
+            Console.WriteLine("A quantidade de notas de 5 é: "+notas5);
+            Console.WriteLine("A quantidade de notas de 1 é: "+notas1);
+
+            */
+            //Q10
+            double comprimento_pista, tempo_carro1, tempo_carro2;
+            Console.WriteLine("Informe o comprimento da pista (em metros)");
+            comprimento_pista = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe o tempo (em segundos) que o carro 1 terminou a corrida");
+            tempo_carro1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe o tempo (em segundos) que o carro 2 terminou a corrida");
+            tempo_carro2 = Convert.ToDouble(Console.ReadLine());
+
+            double v1 = comprimento_pista/tempo_carro1;
+            double v2 = comprimento_pista/tempo_carro2;
+
+            if (v1 == v2){
+                Console.WriteLine("em uma corrida não existem dois carros com tempos de percurso exatamente iguais).");
+            } else {
+                if (v1>v2){
+                    Console.WriteLine("A velocidade do carro mais rápido foi: {0} m/s",v1);
+                } else {
+                    Console.WriteLine("A velocidade do carro mais rápido foi: {0} m/s",v2);
+                }
+            }

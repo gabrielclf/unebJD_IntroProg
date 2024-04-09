@@ -1,0 +1,146 @@
+           //Lista 1 Raciocínio Lógico - Desenvolvendo a Lógica de Programação
+        
+            //Q1 - Filho 
+            //Q2 - 27
+            //Q3 - Segunda-Feira 
+            //Q4 - 10
+            //Q5 - F
+            /*Q6 - Dois Pais e Dois Filhos =(Do ponto de vista que um filho é o mais novo)
+             Um avô paterno, Um pai , Um filho são as 3 pessoas que entraram no bar 
+            */
+            //Q7 - R$5000
+            //Q8 - 6
+            //Q9 - 2
+
+            //Lista 2 – Entradas/Saídas e Operações Básicas
+            //Q1 
+            /*
+                //Declaração de variáveis a serem utilizadas
+            double posto1,posto2,posto3,media;
+
+                 Solicitando preço no posto 1 
+            Console.WriteLine("Informe o preço da gasolina no posto 1");
+            posto1 = Convert.ToDouble(Console.ReadLine());
+
+                 Solicitando preço no posto 2 
+            Console.WriteLine("Informe o preço da gasolina no posto 2");
+            posto2 = Convert.ToDouble(Console.ReadLine());
+
+                //Solicitando preço no posto 3 
+            Console.WriteLine("Informe o preço da gasolina no posto 3");
+            posto3 = Convert.ToDouble(Console.ReadLine());
+
+            media = (posto1+posto2+posto3)/3;
+
+            Console.WriteLine("O preço médio da gasolina é de "+media+" reais.");
+            */
+
+            //Q2
+            /*
+            Console.WriteLine("Informe seu nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Informe sua idade:");
+            int idade = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine(nome+", aproximadamente você viveu por "+(idade*356)+" dias");
+            */
+
+            //Q3
+            /*double largura, altura;
+            Console.WriteLine("Informe a altura da parede a ser pintada: ");
+            altura = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe a largura da parede a ser pintada: ");
+            largura = Convert.ToDouble(Console.ReadLine());
+
+            double latas = ((largura*altura)*0.3)/2;
+
+            Console.WriteLine("Serão necessárias "+latas+" de tinta.");
+            */
+
+            //Q4
+            /*
+            int hora,minuto,segundo;
+            Console.WriteLine("Informe as horas marcadas no cronômetro: ");
+            hora = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Informe os minutos hora marcados no cronômetro: ");
+            minuto = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Informe os segundos marcados no cronômetro: ");
+            segundo = Convert.ToInt16(Console.ReadLine());
+
+            segundo+=(hora*3600)+(minuto*60);
+
+            Console.WriteLine("Se passaram "+segundo+" segundos.");
+            */
+
+            //Q5
+            /*
+            double tijoloAltura,tijoloLargura,salaAltura,salaLargura,janelaAltura,janelaLargura,portaAltura,portaLargura;
+            
+            Console.WriteLine("Dimensões do Tijolo: ");
+            Console.WriteLine("Informe a altura do Tijolo: ");
+            tijoloAltura = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe a largura do Tijolo: ");
+            tijoloLargura = Convert.ToDouble(Console.ReadLine());
+            double tijolo = tijoloAltura*tijoloLargura;
+
+            Console.WriteLine("Dimensões da Porta: ");
+
+            Console.WriteLine("Informe a altura do porta: ");
+            portaAltura = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe a largura do porta: ");
+            portaLargura = Convert.ToDouble(Console.ReadLine());
+            double porta = portaAltura*portaLargura;
+            
+
+            Console.WriteLine("Dimensões da Janela: ");
+
+            Console.WriteLine("Informe a altura do janela: ");
+            janelaAltura = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe a largura do janela: ");
+            janelaLargura = Convert.ToDouble(Console.ReadLine());
+            double janela = janelaAltura*janelaLargura;
+
+            Console.WriteLine("Dimensões da Sala: ");
+
+            Console.WriteLine("Informe a altura do sala: ");
+            salaAltura = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe a largura do sala: ");
+            salaLargura = Convert.ToDouble(Console.ReadLine());
+            double sala = salaAltura*salaLargura;
+
+            double obra = (sala - (porta+janela))/ tijolo;
+
+            Console.WriteLine("A quantidade aproximada de tijolos necessários é :"+obra);
+            */
+
+            //Q6
+            int ano1,mes1,dia1, ano2,mes2,dia2;
+            Console.WriteLine("Informe data 1:");
+            string data1 = Console.ReadLine();
+            Console.WriteLine("Informe data 2:");
+            string data2 = Console.ReadLine();
+
+            // Formato de data XX/XX/XXXX
+
+            dia1 = Convert.ToInt32(string.Concat(data1[0],data1[1]));
+            dia2 = Convert.ToInt32(string.Concat(data2[0],data2[1]));
+
+            mes1 = Convert.ToInt32(string.Concat(data1[3],data1[4]));
+            mes2 = Convert.ToInt32(string.Concat(data2[3],data2[4]));
+
+            ano1 = Convert.ToInt32(data1.Substring(6));
+            ano2 = Convert.ToInt32(data2.Substring(6));
+            
+            /*
+            o dia da segunda seja
+maior ou igual que a primeira, o mês da segunda seja maior ou
+igual à primeira, o ano da segunda seja maior ou igual à primeira;
+e imprima:
+a) A diferença total de anos entre as duas datas.
+b) A diferença total de meses entre as duas datas.
+c) A diferença total de dias entre as duas datas
+            */
+            Console.WriteLine("A) A diferença total de anos entre as duas datas é :"+(ano2-ano1));
+            Console.WriteLine("A) A diferença total de meses entre as duas datas é :"+(mes2-mes1));
+            Console.WriteLine("A) A diferença total de dias entre as duas datas é :"+(dia2-dia1));
+
