@@ -1,0 +1,15 @@
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\bin\Debug\net8.0\ListaRepeticao.exe
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\bin\Debug\net8.0\ListaRepeticao.deps.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\bin\Debug\net8.0\ListaRepeticao.runtimeconfig.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\bin\Debug\net8.0\ListaRepeticao.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\bin\Debug\net8.0\ListaRepeticao.pdb
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.AssemblyInfoInputs.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.AssemblyInfo.cs
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.csproj.CoreCompileInputs.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.sourcelink.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\refint\ListaRepeticao.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.pdb
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ListaRepeticao.genruntimeconfig.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaRepeticao\obj\Debug\net8.0\ref\ListaRepeticao.dll
