@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace ListaRepeticao
 {
@@ -111,7 +112,7 @@ namespace ListaRepeticao
       Console.WriteLine($"A quantidade de numeros pares é: {pares} \n e a quantidade de ímpares é: {impares}");
       */
       //Q6
-
+    /*
       int n = Convert.ToInt32(Console.ReadLine());
       int fatorial = 0;
       
@@ -126,6 +127,121 @@ namespace ListaRepeticao
       }
 
       Console.WriteLine($"Fatorial de {n}! = {fatorial}");
+
+      */
+      //Q7
+      /*
+      int n_fib = Convert.ToInt32(Console.ReadLine());
+      int n1=1,n2=1,n3;
+      Console.Write($"\n{n1} {n2}");
+      for (int i = 1; i < n_fib; i++){
+        n3 = n1+n2;
+        Console.Write($" {n3}");
+        n1 = n2;
+        n2 = n3;
+      }
+      */
+      //Q8
+      /*
+      string codigo, nome = "";
+      char sexo;
+      int idade,total_h = 0, total_m =0;
+      double letra_b = 0, todo = 0;
+      while (nome!="fim") {
+        Console.WriteLine("Informe seu nome:");
+        nome = Console.ReadLine();
+        Console.WriteLine("Informe seu sexo:");
+        sexo = Convert.ToChar(Console.ReadLine());
+        Console.WriteLine("Informe sua idade:");
+        idade = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Informe seu motivo de visita por código:");
+        codigo = Console.ReadLine();
+
+        if (codigo == "020"){
+          letra_b++;
+        }
+
+        switch (sexo){
+          case 'h': total_h++;
+          break;
+
+          case 'm': total_m++;
+          break;
+
+          default:
+          Console.WriteLine("A questão é arcaíca, desculpa");
+          break;
+        }
+        todo++;
+      }
+      double percentual = (letra_b/todo)*100;
+      Console.WriteLine($"a) o percentual de indivíduos que buscavam Serviços. \n = {todo}");
+      if (total_h > total_m){
+        Console.WriteLine($"b) quem freqüenta mais o shopping : homens ou mulheres ? \n Homens ganham com {total_h}");
+      } else if (total_h == total_m){
+        Console.WriteLine($"b) quem freqüenta mais o shopping : homens ou mulheres ? \n EMPATE {total_h} homens e {total_m} mulheres");
+      } else {
+        Console.WriteLine($"b) quem freqüenta mais o shopping : homens ou mulheres ? \n Mulheres ganham com {total_m}");
+      }
+      */
+    
+    //Q9
+    /*
+    char tipo = 'a', gender='b';
+    int count1 = 0, count2 = 0, count3 = 0;
+    double todo = 0, bl = 0;
+
+    while (tipo !='0'){
+      switch (tipo){
+        case '1': count1++; break;
+
+        case '2': count2++; break;
+
+        case '3': count3++; break;
+
+        default: Console.WriteLine("Sem Categoria"); break;
+      }
+
+      if ((gender == 'M')&&(tipo == '2')){
+        bl++;
+      }
+      if ((tipo == '1')||(tipo == '2')||(tipo == '3')){ 
+        if (gender == 'M'){ 
+          todo++;
+        }
+      }
+    }
+      double b = (bl/todo) * 100;
+      Console.WriteLine($"Percentual de homens que lêem livros de romance =  {b}%.");
+
+      if ((count1 > count2) && (count1 > count3)){
+        Console.WriteLine("O tipo de livro mais vendido no mês é Ficção");
+      } else if ((count2 > count1) && (count2 > count3)){
+        Console.WriteLine("O tipo de livro mais vendido no mês é Romance");
+      } else if ((count3 > count2) && (count3 > count1)) {
+        Console.WriteLine("O tipo de livro mais vendido no mês é Aventura");
+      }
+      */
+    
+      //Q10
+      int seg = 0, min = 0, hora = 0;
+
+      while (true){
+        seg++;
+        if (min == 0){
+          Console.WriteLine($"{seg}s  ");
+        }
+        if (seg % 60 == 0){
+          min++;
+          Console.WriteLine($"{min}m e {seg}s");
+        }
+        if (min % 60 == 0){
+          hora++;
+          Console.WriteLine($"{hora}h, {min}m e {seg}s");
+        }
+      }
+
+
     }
     
   }
