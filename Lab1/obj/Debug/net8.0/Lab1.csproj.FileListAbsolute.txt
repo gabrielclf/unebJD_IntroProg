@@ -1,0 +1,15 @@
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\bin\Debug\net8.0\Lab1.exe
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\bin\Debug\net8.0\Lab1.deps.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\bin\Debug\net8.0\Lab1.runtimeconfig.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\bin\Debug\net8.0\Lab1.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\bin\Debug\net8.0\Lab1.pdb
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.AssemblyInfoInputs.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.AssemblyInfo.cs
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.csproj.CoreCompileInputs.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\refint\Lab1.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.pdb
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\Lab1\obj\Debug\net8.0\ref\Lab1.dll

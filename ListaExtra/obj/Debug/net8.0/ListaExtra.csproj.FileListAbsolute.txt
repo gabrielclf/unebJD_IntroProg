@@ -1,0 +1,15 @@
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.GeneratedMSBuildEditorConfig.editorconfig
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.AssemblyInfoInputs.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.AssemblyInfo.cs
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.csproj.CoreCompileInputs.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.sourcelink.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\bin\Debug\net8.0\ListaExtra.exe
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\bin\Debug\net8.0\ListaExtra.deps.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\bin\Debug\net8.0\ListaExtra.runtimeconfig.json
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\bin\Debug\net8.0\ListaExtra.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\bin\Debug\net8.0\ListaExtra.pdb
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\refint\ListaExtra.dll
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.pdb
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ListaExtra.genruntimeconfig.cache
+G:\Gabriel\UNEB-Jogos Digitais\Intro_Prog\Codigos\unebJD_IntroProg\ListaExtra\obj\Debug\net8.0\ref\ListaExtra.dll

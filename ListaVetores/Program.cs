@@ -1,9 +1,13 @@
 using System;
 using System.Collections;
+using System.Numerics;
 using System.Runtime.InteropServices;
+
 
 namespace ListaRepeticao {
   class Program {
+
+    
     static void Main(string[] args){ 
         /*
         * Questão 1: Fazer um algoritmo que leia um vetor com 8 elementos, e imprima a
@@ -396,7 +400,7 @@ encontrado”.
         Questão 11: Escrever um programa C que leia uma matriz A de 4 linhas e 4
         colunas. A seguir este programa deverá calcular a soma dos elementos da sua
         diagonal principal e mostrar o resultado.
-        */
+        
 
         int[,] matrix = new int[4,4];
         Random rand = new Random();
@@ -411,6 +415,86 @@ encontrado”.
             }
         }
         Console.WriteLine($"A soma dos elementos da diagonal principal é: {soma_diagonal}");
+        */
+        // -------------------------------------------------------------------------------------------------------------------
+        //Matriz Ortogonal https://pt.wikipedia.org/wiki/Matriz_ortogonal
+        // Em Álgebra linear, uma matriz quadrada é dita ortogonal se sua matriz inversa coincide com sua matriz transposta
+    
+        int n , m ;
+        Console.WriteLine("Informe o número de linhas [n] para a matriz: ");
+        n = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Informe o número de colunas [m] para a matriz: ");
+        m = Convert.ToInt32(Console.ReadLine());
+        if (n == m){
+             //Matrizes ortogonais são matrizes quadradas = nº de linhas = nº colunas
+            //matriz inversa: Uma matriz é dita invertível se ela multiplicada a outra matriz M^-1 é igual à matriz identidade
+            
+            //matriz transposta: Uma matriz que são trocadas as posições entre linhas e colunas EX:
+            //uma matriz 2x3 tem uma transposta 3x2
+            //quadradas continuam iguais
+            
+            //matriz identidade é uma matriz diagonal, cujos elementos da diagonal principal são todos iguais a 1
+
+            double[,] matrix = new double[n,m];
+            double[,] transposta = new double[n,m];
+            double[,] identidade = new double[n,m];
+            double diagonal_p = 0, diagonal_s = 0;
+
+            //ortogonal : M -> M^(-1) = M^T
+            // Preencher a primeira matriz: M
+            Console.WriteLine("Informe valores para preencher a matriz M: \n");
+            
+            for (int i = 0; i < n; i++){
+                for (int j = 0; j < m; j++){
+                    Console.WriteLine($"Informe os valores para a posição {i}x{j}");
+                    matrix[i,j] = Convert.ToDouble(Console.ReadLine());
+                    //Lendo parte transposta
+                    transposta[i,j] = matrix[j,i];
+                    //Obtendo Diagonais Primária (i=j) e Secundária (i+j = n+1) [linguagem matemática]
+                    if (n == 2){
+                        if (i == j){
+                            diagonal_p += matrix[i,j];
+                        }
+                        if ((i+j)==n){
+                            diagonal_s += matrix[i,j];
+                        }
+                    }
+                }
+            }
+            double determinante = diagonal_p - diagonal_s;
+
+            //Visualizando a Matriz
+            for (int i = 0; i < n; i++){
+                for (int j = 0; j < m; j++){
+                    Console.Write(matrix[i,j]+"\t ");
+                }
+                Console.Write("\n");
+            }
+            Console.WriteLine("\n"); //dando um espaço
+            //Deixando a matriz transposta
+            for (int i = 0; i < n;i++){
+                for (int j = 0; j < m; j++){
+                    Console.Write(transposta[i,j]+"\t ");
+                }
+                Console.Write("\n");
+            }
+
+            //Matriz Identidade
+            for (int i = 0; i < n; i++){
+                for (int j = 0; j < m; j++){
+                    if (i == j){
+                        identidade[i,j] = 1;
+                    } else{
+                        identidade[i,j] = 0;
+                    }
+                }
+            }
+
+            //Matriz Inversa
+
+            
+        }
+         
 
 
        }
