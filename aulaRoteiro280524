@@ -1,0 +1,36 @@
+Aula 08 - Decupagem (recortar, cortar, dividir, distribuir)
+Se enquadramento era a descrição de cinematografia, decupagem é a descrição do enquadramento
+
+"Destrinchar uma obra". Identificando as caracteristicas e partes distintas dela. Para usar posteriormente
+
+Desconstruir para reconstruir.
+Em game dev, "desconstrução", da composição de todo o jogo para identificar em pedaços menores.
+
+Em audiovisual é dividir as cenas em planos, traduzir o que esta no argumento em imagens descritas verbalmente
+Escaleta de roteiro. -> Leitura rapida e somente o mais importante de cada cena.
+[O que é escaleta (Sinalizar macro-elemento da narrativa: cutscene/cinematic/gameplay/machinima
+                  No topo - cabeçalho (descrição do local onde a cena se passa)
+                  Interior ou exterior. Locação-Lugar-Dia/Noite ):
+Padrão para seguir:~
+Cinematic
+  INT. Cena Interna - Quarto - dia
+  EXT. Cena Externa - banco da praça - Noite.
+
+Cena-Ação-Rubrica = Resumo do que ocorre de mais importante na cena de maneira resumida, tem que ser uma descrição clara do que ocorre para ser reproduzido (em filme, animação, jogo etc)
+Protagonista da cena+
+Objetivo(do protagonista)+
+Obstaculo(no caminho do protag)+
+Resultado(o que acaba acontecendo)
+
+]
+Cinematica
+INT. NOME DO LOCAL - TEMPO DO DIA
+Cena 01: Plano/Angulo/Ponto de vista ,ipsum lorem amafiring my lazer...
+....
+**Atenção: tentar ver exemplos de planos e angulos de camera/cinematografia**         
+(mudança de macro elemento)
+Gameplay
+EXT. NOME DO NOVO LOCAL - NOVO TEMPO DO DIA
+Cena 0X: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
